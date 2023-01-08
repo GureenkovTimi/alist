@@ -7,7 +7,7 @@ import (
 	"github.com/alist-org/alist/v3/cmd/flags"
 	"github.com/spf13/cobra"
 )
-
+#reset
 var RootCmd = &cobra.Command{
 	Use:   "alist",
 	Short: "A file list program that supports multiple storage.",

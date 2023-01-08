@@ -11,7 +11,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 )
-
+#reset
 func FsUp(c *gin.Context) {
 	path := c.GetHeader("File-Path")
 	password := c.GetHeader("Password")
